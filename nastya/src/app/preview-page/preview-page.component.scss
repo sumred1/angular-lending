@@ -1,0 +1,143 @@
+#container{
+    margin: 40px 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+#containerContent1and1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#containerContent1and2{
+    img{
+        width: 100%;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#divImg{
+    width: 100%;
+}
+
+#divText{
+    color: #6B5446;
+    width: 100%;
+    text-align: right;
+    font-family: montserrat;
+    font-size: 25px;
+}
+
+#containerContent1and2>div{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-self: flex-end;
+}
+
+#logoContentBig{
+    font-family: Cormorant Garamond;
+    font-size: 120px;
+    color: #6B5446;
+}
+
+#logoContentBig>p{
+    line-height: 0.85;
+    margin: 0;
+}
+
+#description{
+    color: #6B5446;
+    font-family: montserrat;
+    font-size: 50px;
+    margin: 30px 0;
+}
+#description>p{
+    margin: 0;
+}
+
+#btnDown{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1500px){
+    #logoContentBig{
+        font-size: 100px;
+    }
+    #description{
+        font-size: 40px;
+    }
+    #divText{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    #logoContentBig{
+        font-size: 80px;
+    }
+    #description{
+        font-size: 25px;
+    }
+    #divText{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #logoContentBig{
+        font-size: 70px;
+    }
+    #description{
+        font-size: 20px;
+    }
+    #divText{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #container{
+        margin: 40px 5% 0 5%;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    #containerContent1and1{
+        width: 100%;
+    }
+    #containerContent1and2{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #divText{
+        margin-top: 20px;
+    }
+    #description{
+        font-size: 30px;
+    }
+    #logoContentBig{
+        font-size: 90px;
+    }
+    #btnDown{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #description{
+        font-size: 20px;
+    }
+    #logoContentBig{
+        font-size: 70px;
+    }
+}
+

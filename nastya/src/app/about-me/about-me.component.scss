@@ -1,0 +1,138 @@
+.containerLeft {
+    width: 100%;
+    display: flex;
+}
+
+.name-left {
+    margin-left: 10%;
+    width: fit-content;
+}
+
+.lineAndCircle {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.circle{
+    margin-top: 1%;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #6B5446;
+    border: 1px solid #6B5446;
+}
+
+.line{
+    margin-top: 1%;
+    flex-grow: 1;
+    height: 0.5px;
+    border: 1px solid #6B5446;
+    background-color: #6B5446;
+}
+
+.nameServices{
+    color: #6B5446;
+    margin-right: 30px;
+    font-size: 80px;
+    font-family: cormorant garamond;
+}
+
+#container{
+    margin: 2% 0;
+    width: 100%;
+    display: flex;
+}
+
+#first{
+    width: 50%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    div{
+        font-family: montserrat;
+        font-size: 25px;
+        color: #6B5446;
+    }
+}
+
+#second{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #first{
+        div{
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #first{
+        div{
+            font-size: 18px;
+        }
+    }
+    .name-left{
+        .nameServices{
+            font-size: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #first{
+        div{
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #container{
+        flex-direction: column;
+        #first{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            div{
+                font-size: 16px;
+                text-align: center;
+                margin: 5% 0;
+            }
+        }
+        #second{
+            margin-left: 5%;
+            width: 95%;
+        }
+    }
+    .name-left{
+        margin-left: 5%;
+        .nameServices{
+            font-size: 45px;
+            margin-right: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #first{
+        div{
+            width: 100%;
+            font-size: 13px;
+        }
+    }
+    .name-left{
+        .nameServices{
+            font-size: 40px;
+            margin-right: 10px;
+        }
+    }
+}

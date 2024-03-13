@@ -1,0 +1,193 @@
+.containerLeft {
+    width: 100%;
+    display: flex;
+}
+
+.name-left {
+    margin-left: 10%;
+    width: fit-content;
+}
+
+.lineAndCircle {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.circle{
+    margin-top: 1%;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #6B5446;
+    border: 1px solid #6B5446;
+}
+
+.line{
+    margin-top: 1%;
+    flex-grow: 1;
+    height: 0.5px;
+    border: 1px solid #6B5446;
+    background-color: #6B5446;
+}
+
+.nameServices{
+    color: #6B5446;
+    margin-right: 30px;
+    font-size: 80px;
+    font-family: cormorant garamond;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    width: fit-content;
+
+}
+
+#underline{
+    width: 390px;
+    height: 3px;
+    background-color: #FBC1B3;
+    filter: blur(2px);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.gradient{
+    margin: 50px 0;
+    width: 100%;
+    // border: 1px solid black;
+    background-image: url("../../assets/images/градиент.png");
+}
+
+.flex{
+    // border: 1px solid black;
+    width: 80%;
+    margin: 0 10%;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.img{
+    margin-right: 5%;
+    width: 25%;
+    img{
+        width: 100%;
+    }
+}
+
+.img-right{
+    margin-left: 5%;
+    img{
+        width: 100%;
+
+    }
+    width: 25%;
+}
+
+.text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    div{
+        color: #6B5446;
+        width: fit-content;
+        font-size: 60px;
+        font-family: cormorant garamond;
+    }
+}
+
+.notes{
+    color: #6B5446;
+    font-size: 30px;
+    font-family: montserrat;
+}
+
+.img2{
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .logo{
+        div{
+            font-size: 40px;
+        }
+    }
+    .notes{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .logo{
+        div{
+            font-size: 35px;
+        }
+    }
+    .notes{
+        font-size: 20px;
+    }
+    #nameServices{
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo{
+        div{
+            font-size: 30px;
+        }
+    }
+    .notes{
+        font-size: 15px;
+    }
+    .nameServices{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .logo{
+        div{
+            font-size: 25px;
+        }
+    }
+    .img2{
+        display: block;
+    }
+    .img1{
+        display: none;
+    }
+    .notes{
+        font-size: 15px;
+    }
+    .flex{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .nameServices{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo{
+        div{
+            font-size: 20px;
+        }
+    }
+    .notes{
+        font-size: 12px;
+    }
+    .nameServices{
+        font-size: 40px;
+    }
+}

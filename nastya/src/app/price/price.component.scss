@@ -1,0 +1,655 @@
+.containerLeft {
+    width: 100%;
+    display: flex;
+}
+
+*{
+    img{
+        width: 50%;
+    }
+}
+
+.procent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.name-left {
+    margin-left: 10%;
+    width: fit-content;
+}
+
+.lineAndCircle {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.circle{
+    margin-top: 1%;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #6B5446;
+    border: 1px solid #6B5446;
+}
+
+.line{
+    margin-top: 1%;
+    flex-grow: 1;
+    height: 0.5px;
+    border: 1px solid #6B5446;
+    background-color: #6B5446;
+}
+
+.nameServices{
+    color: #6B5446;
+    margin-right: 30px;
+    font-size: 80px;
+    font-family: cormorant garamond;
+}
+
+.containerRight {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 3% 0;
+}
+.name {
+    margin-right: 10%;
+    width: fit-content; 
+    color: #6B5446;
+    font-size: 80px;
+    font-family: cormorant garamond;
+}
+
+.nameServices{
+    margin-left: 30px;
+}
+
+.lineAndCircleRight {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+
+// =============================
+
+
+#container{
+    margin-right: 10%; 
+    width: 90%;
+}
+
+#container2{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#price-container{
+    width: 100%;
+}
+
+#all{
+    width: 100%;
+    background-image: url(../../assets/images/price-gradient.png);
+    background-size: 100% 100%;
+}
+
+.line-name{
+    margin-top: 150px;
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.text-name{
+    margin: 0;
+    font-size: 60px;
+    color: #6B5446;
+    font-family: cormorant garamond;
+}
+
+.sml-line{
+    width: 100%;
+    margin-top: 1%;
+    height: 0.5px;
+    border: 1px solid #6B5446;
+    background-color: #6B5446;
+}
+
+.blur{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FBC1B3;
+    filter: blur(20px);
+    z-index: -1;
+    transition: all 0.5s ease-out;
+}
+
+.price-name{
+    position: relative;
+    margin-right: 30px;
+    width: fit-content;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// ==========================================================
+// ==========================================================
+// ==========================================================
+// ==========================================================
+
+.BSN{
+    font-size: 35px;
+    font-family: cormorant garamond;
+    margin: 1%;
+}
+
+.SSN{
+    font-size: 25px;   
+    margin: 0px 1% 1% 1%;
+    font-family: montserrat;
+    color: #9C8577;
+}
+
+.BSP{
+    font-size: 40px;   
+    font-family: montserrat;
+}
+
+// =================botulino================
+
+#butolinoPriseBlock{
+    *{
+        color: #6B5446;
+    }
+    .SSN{
+        color: #9C8577;
+    }    
+    width: 80%;
+    margin: 3% 10% 3% 10%;
+    .blockDef{
+        width: 100%;
+        display: flex;
+    }
+    .textBeforePriceDown{
+        width: 85%;
+        border: 3px solid #6B5446;
+        border-top: 0;
+        border-right: 0;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0 0 0 10px;
+    }
+    
+    .priceBlockSmlDown{
+        width: 15%;
+        border: 3px solid #6B5446;
+        border-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 0 10px 0;
+    }
+    .textBeforePrice{
+        width: 85%;
+        border: 3px solid #6B5446;
+        border-right: 0;
+        display: flex;
+        flex-direction: column;
+    
+        border-radius: 10px 0 0 0;
+    }
+    
+    .priceBlockSml{
+        width: 15%;
+        border: 3px solid #6B5446;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 10px 0 0;
+    }
+}
+
+// =========контурна пластика================
+
+#KonturnaPlastikaPriseBlock{
+    width: 80%;
+    margin: 50px 10% 50px 10%;
+    *{
+        color: #6B5446;
+    }
+    .longFirst{
+        display: flex;
+        justify-content: center;
+        border: 3px solid #6B5446;
+        border-radius: 10px 10px 0 0;
+    }
+    .UpperNameCenter{
+        color: #6B5446;
+        font-size: 45px;
+        font-family: cormorant garamond;
+        div{
+            margin: 5px;
+        }
+    }
+}
+
+.UpperNameCenterSquare{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 3px solid #6B5446;
+    border-top: 0;
+    color: #6B5446;
+    font-size: 45px;
+    font-family: cormorant garamond;
+    div{
+        margin: 5px;
+    }
+}
+
+.square{
+    width: 100%;
+    display: flex;
+}
+
+.small-notes{
+    width: 100%;
+    border: 3px solid #6B5446;
+    border-top: 0;
+    div{
+        font-size: 25px;
+        font-family: cormorant garamond;
+        color: #9C8577;
+        margin: 5px;
+    }
+}
+
+.first-square{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    border: 3px solid #6B5446;
+    border-top: 0;
+}
+.second-square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    align-items: center;
+    border: 3px solid #6B5446;
+    border-top: 0;
+    border-left: 0;
+}
+
+
+*{
+    .numberAnotherFontFamily{
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+.first-square-down{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    border: 3px solid #6B5446;
+    border-top: 0;
+    border-radius: 0 0 0 10px;
+}
+.second-square-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    align-items: center;
+    border: 3px solid #6B5446;
+    border-radius: 0 0 10px 0;
+    border-top: 0;
+    border-left: 0;
+}
+
+
+// =============дерматологічне лікування=================
+
+.circle-type-block{
+    *{
+        color: #6B5446;
+    }
+    width: 80%;
+    margin: 50px 10% 50px 10%;
+    display: flex;
+    .first{
+        width: 85%;
+        display: flex;
+        align-items: center;
+        border: 3px solid #6B5446;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 15%;
+        align-items: center;
+        border: 3px solid #6B5446;
+        border-left: 0;
+        border-radius: 0 10px 10px 0;
+    }
+
+
+}
+
+#biorevital-cont{
+    width: 80%;
+    margin: 50px 10% 50px 10%;
+    .SSN{
+        color: #9C8577;
+    } 
+    *{
+        color: #6B5446;
+    }
+    .longFirst{
+        display: flex;
+        justify-content: center;
+        border: 3px solid #6B5446;
+        border-radius: 10px 10px 0 0;
+    }
+    .UpperNameCenter{
+        color: #6B5446;
+        font-size: 45px;
+        font-family: cormorant garamond;
+        div{
+            margin: 0.5px;
+        }
+    }
+    .first-square{
+        width: 85%;
+        display: flex;
+        align-items: center;
+        border: 3px solid #6B5446;
+        border-top: 0;
+    }
+}
+
+.noFlex{
+    .BSN{
+        align-self: start;
+    }
+    .SSN{
+        align-self: start;
+    }
+    display: flex;
+    flex-direction: column;
+}
+
+#doglyadovi-proceduri{
+    .square{
+        .down-square{
+            border: 3px solid #6B5446;
+            color: #9C8577;
+            width: 100%;
+            border: 3px solid #6B5446;
+            border-top: 0;
+            font-size: 25px;
+            font-family: cormorant garamond;
+            color: #9C8577;
+            border-radius: 0 0 10px 10px;
+            div{
+                margin: 0.5%;
+            }   
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .BSN{
+        font-size: 27px;
+    }
+    .SSN{
+        font-size: 18px;
+    }
+    .BSP{
+        font-size: 30px;
+    }
+    .UpperNameCenterSquare{
+        div{
+
+            font-size: 35px;
+        }
+    }
+    .UpperNameCenter{
+        div{
+
+            font-size: 35px;
+        }
+    }
+    .text-name{
+        font-size: 50px;
+    }
+    .small-notes{
+        div{
+            font-size: 20px;
+        }
+    }
+
+    .down-square{
+        div{
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .BSN{
+        font-size: 24px;
+    }
+    .SSN{
+        font-size: 15px;
+    }
+    .BSP{
+        font-size: 26px;
+    }
+    .UpperNameCenterSquare{
+        div{
+            font-size: 29px;
+        }
+    }
+    .UpperNameCenter{
+        div{
+
+            font-size: 29px;
+        }
+    }
+    .text-name{
+        font-size: 45px;
+    }
+    .small-notes{
+        div{
+            font-size: 17px;
+        }
+    }
+
+    .down-square{
+        div{
+            font-size: 17px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .name{
+        .nameServices{
+            font-size: 50px;
+        }
+    }
+    .BSN{
+        font-size: 22px;
+    }
+    .SSN{
+        font-size: 12px;
+    }
+    .BSP{
+        font-size: 22px;
+    }
+    .UpperNameCenterSquare{
+        div{
+            font-size: 25px;
+        }
+    }
+    .UpperNameCenter{
+        div{
+
+            font-size: 25px;
+        }
+    }
+    .text-name{
+        font-size: 35px;
+    }    .small-notes{
+        div{
+            font-size: 15px;
+        }
+    }
+
+    .down-square{
+        div{
+            font-size: 15px;
+        }
+    }
+
+    #all{
+        *{
+            border-width: 1px;
+            *{
+                border-width: 1px;
+                *{
+                    border-width: 1px;
+                    *{
+                        border-width: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .name{
+        .nameServices{
+            font-size: 45px;
+            margin: 0 0 0 5px;
+        }
+    }
+    .BSN{
+        font-size: 18px;
+    }
+    .SSN{
+        font-size: 12px;
+    }
+    .BSP{
+        font-size: 19px;
+    }
+    .UpperNameCenterSquare{
+        div{
+            font-size: 21px;
+        }
+    }
+    .UpperNameCenter{
+        div{
+
+            font-size: 21px;
+        }
+    }
+    .text-name{
+        font-size: 29px;
+    }
+
+    .small-notes{
+        div{
+            font-size: 13px;
+        }
+    }
+
+    .down-square{
+        div{
+            font-size: 13px;
+        }
+    }
+    #butolinoPriseBlock, .circle-type-block, #KonturnaPlastikaPriseBlock, #biorevital-cont{
+        width: 90%;
+        margin: 3% 5% 3% 5%;
+    }
+    
+    .name-left{
+        margin-left: 5%;
+    }
+    .name{
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .name{
+        .nameServices{
+            font-size: 40px;
+        }
+    }
+    .BSN{
+        font-size: 15px;
+    }
+    .SSN{
+        font-size: 10px;
+    }
+    .BSP{
+        font-size: 13px;
+    }
+    .UpperNameCenterSquare{
+        div{
+            font-size: 20px;
+        }
+    }
+    .UpperNameCenter{
+        div{
+
+            font-size: 20px;
+        }
+    }
+    .text-name{
+        font-size: 25px;
+    }
+
+    .small-notes{
+        div{
+            font-size: 10px;
+        }
+    }
+
+    .down-square{
+        div{
+            font-size: 10px;
+        }
+    }
+    
+}
